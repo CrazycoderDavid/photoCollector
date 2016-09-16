@@ -13,6 +13,7 @@
 		CD50CC1E1D8C49C3001B9162 /* PhotoCollector.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = CD50CC1C1D8C49C3001B9162 /* PhotoCollector.xcdatamodeld */; };
 		CD50CC201D8C49C3001B9162 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = CD50CC1F1D8C49C3001B9162 /* Assets.xcassets */; };
 		CD50CC231D8C49C3001B9162 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CD50CC211D8C49C3001B9162 /* LaunchScreen.storyboard */; };
+		CD50CC2B1D8C5341001B9162 /* PhotoViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CD50CC2A1D8C5341001B9162 /* PhotoViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -24,6 +25,7 @@
 		CD50CC1F1D8C49C3001B9162 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		CD50CC221D8C49C3001B9162 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		CD50CC241D8C49C3001B9162 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		CD50CC2A1D8C5341001B9162 /* PhotoViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PhotoViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -58,6 +60,7 @@
 			children = (
 				CD50CC151D8C49C3001B9162 /* AppDelegate.swift */,
 				CD50CC171D8C49C3001B9162 /* ViewController.swift */,
+				CD50CC2A1D8C5341001B9162 /* PhotoViewController.swift */,
 				CD50CC191D8C49C3001B9162 /* Main.storyboard */,
 				CD50CC1F1D8C49C3001B9162 /* Assets.xcassets */,
 				CD50CC211D8C49C3001B9162 /* LaunchScreen.storyboard */,
@@ -141,6 +144,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				CD50CC181D8C49C3001B9162 /* ViewController.swift in Sources */,
+				CD50CC2B1D8C5341001B9162 /* PhotoViewController.swift in Sources */,
 				CD50CC161D8C49C3001B9162 /* AppDelegate.swift in Sources */,
 				CD50CC1E1D8C49C3001B9162 /* PhotoCollector.xcdatamodeld in Sources */,
 			);
@@ -304,6 +308,7 @@
 				CD50CC291D8C49C3001B9162 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 
